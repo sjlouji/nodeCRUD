@@ -1,0 +1,30 @@
+{
+  "name": "patient",
+  "version": "1.0.0",
+  "description": "App for an evaluation",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjlouji/nodeCRUD.git"
+  },
+  "author": "Ishwarya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjlouji/nodeCRUD/issues"
+  },
+  "homepage": "https://github.com/sjlouji/nodeCRUD#readme",
+  "dependencies": {
+    "@admin-bro/express": "^3.0.1",
+    "admin-bro": "^3.3.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6",
+    "pg": "^8.5.1",
+    "sequelize": "^6.3.5"
+  }
+}
